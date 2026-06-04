@@ -15,8 +15,19 @@ class SinhVien{
     SinhVien();
     SinhVien(string, string, int);
 
-    void 
+    void setMaSV(string);
+    void setHoTen(string);
+    void setTuoi(int);
+
+    string getMaSV()const;
+    string getHoTen()const;
+    int getTuoi()const;
     
+    void display();
+    void suaThongtin(); // in ra thong tin sinh vien moi
+
+    void ghiFile(ofstream&)const;
+    void docFile(ifstream&);
 };
 
 #endif
