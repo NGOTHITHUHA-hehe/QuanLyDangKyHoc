@@ -23,7 +23,7 @@ class SinhVien{
     string getHoTen()const;
     int getTuoi()const;
     
-    void display();
+    void display_info();
     void suaThongtin(); // in ra thong tin sinh vien moi
 
     void ghiFile(ofstream&)const;

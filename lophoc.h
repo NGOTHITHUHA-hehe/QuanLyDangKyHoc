@@ -11,6 +11,7 @@ class LopHoc{
     int siSo;
     public:
     LopHoc();
+    LopHoc(string, int);
 
     void setMaLop(string);
     void setSiSo(int);
@@ -18,7 +19,8 @@ class LopHoc{
     string getMaLop()const;
     int getSiSo()const;
 
-    void display();
+    
+    void display_info();
     void suaThongtin(); //in ra thong tin lop moi
 
     void ghiFile(ofstream&) const;

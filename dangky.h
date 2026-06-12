@@ -19,6 +19,8 @@ class DangKy{
     string getMaSV()const;
     string getMaLop()const;
 
+    void display_info();
+
     void ghiFile(ofstream&) const;
     void docFile(ifstream&);
 };
